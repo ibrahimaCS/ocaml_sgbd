@@ -1,0 +1,71 @@
+
+# Build directory
+_build/
+
+# Compiled OCaml artifacts
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.cmt
+*.cmti
+*.o
+*.a
+*.so
+*.annot
+
+# Generated executable
+tests_exec
+
+# Submission archives
+*.tgz
+*.tar.gz
+
+# Editor / IDE files
+.vscode/
+.idea/
+.merlin
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+=======
+*.annot
+*.cmo
+*.cma
+*.cmi
+*.a
+*.o
+*.cmx
+*.cmxs
+*.cmxa
+
+# Files containing detailed information about the compilation (generated
+# by `ocamlc`/`ocamlopt` when invoked using the option `-bin-annot`).
+# These files are typically useful for code inspection tools
+# (e.g. Merlin).
+*.cmt
+*.cmti
+
+# ocamlbuild and Dune default working directory
+_build/
+
+# ocamlbuild targets
+*.byte
+*.native
+
+# oasis generated files
+setup.data
+setup.log
+
+# Merlin configuring file for Vim and Emacs
+.merlin
+
+# Dune generated files
+*.install
+
+# Local OPAM switch
+_opam/
